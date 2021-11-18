@@ -21,18 +21,41 @@ padding-left:10px;
 }
 
 .title{
-padding:25px;
+padding-top:30px;
+padding-left:30px;
 }
 
-.button{
-border:1px solid red; /* debug */
+.button-container{
+/*border:1px solid red;*/ /* debug */
 padding:30px;
+}
+
+.click{
+border : 0.16em solid rgba(255,255,255,0);
+display:inline-block;
+padding: 0.3em 1.2em;
+border-radius:2em;
+text-decoration:none;
+font-weight:300;
+color:#FFFFFF;
+text-shadow: 0 0.04em 0.04em rgba(0,0,0,0:35);
+text-align:center;
+transition: all 0.2s;
+background-color:#9a4ef1
+}
+
+.click:hover{
+border-color: rgba(255,255,255,1);
 }
 
 .upper{
 width:900px;
 display:flex;
 justify-content:space-between;
+}
+
+#spotify{
+float:left;
 }
 
 .middle{
@@ -57,9 +80,7 @@ margin :0 auto;
 .sidebar{
 display:flex;
 flex-direction:column;
-justify-content:flex-start;
-
-
+justify-content:space-around;
 }
 
 .sidebar>img{
@@ -74,7 +95,7 @@ height:110px;
     height: 400px;
     margin-bottom: 20px;
     background-color: white;
-
+    float:left;
 }
 
 .form {
@@ -97,15 +118,15 @@ height:110px;
  padding-top: 5px;}
 
 #name{
-margin-left:14px
+margin-left:15px
 }
 
 #email{
-    margin-left:14px;
+    margin-left:17px;
 }
 
 #submit{
-    margin : 10px 20px 30px 10px;
+    margin : 10px 20px 10px 470px;
 }
 
 .name{
@@ -127,7 +148,7 @@ margin-left:14px
 .empty{
     border: 1px solid black;
     width: 760px;
-    height: 30px;
+    height: 100px;
     display: flex;
     margin: 0 auto 20px;
     order:3;
