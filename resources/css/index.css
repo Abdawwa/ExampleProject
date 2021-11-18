@@ -15,6 +15,19 @@ display:flex;
 width:900px;
 margin: 0 auto;
 }
+.logo
+{
+padding-left:10px;
+}
+
+.title{
+padding:25px;
+}
+
+.button{
+border:1px solid red; /* debug */
+padding:30px;
+}
 
 .upper{
 width:900px;
