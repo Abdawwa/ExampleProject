@@ -252,6 +252,7 @@ text-align:center;
 transition: all 0.2s;
 background-color:rebeccapurple;
 margin : 10px 20px 10px 430px;
+    cursor: pointer;
 }
 
 #submit:hover{
