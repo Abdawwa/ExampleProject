@@ -8,7 +8,19 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-#adv {
+/*.col {
+    border: 1px solid white;
+}debugging*/
+
+/*.container {
+    border: 1px solid pink; }
+    debugging
+
+    */
+
+
+
+.adv {
     text-align: center;
     padding-top: 40px;
     color: white;
@@ -56,7 +68,7 @@ body {
     border-color: rgba(255, 255, 255, 1);
 }
 
-#spotify {
+.spotify {
     float: left;
 }
 
@@ -65,14 +77,6 @@ body {
     margin: 0 auto;
     padding: 20px 0;
 
-}
-
-.middle-2 {
-    padding: 20px 0;
-    /*border: 1px solid black;*/ /*debugging*/
-    display: flex;
-    margin: 0 auto;
-    flex-direction: column-reverse;
 }
 
 .sidebar {
@@ -180,13 +184,6 @@ body {
     transform: rotateY(180deg);
 }
 
-.form {
-    border: 1px solid red; /*debugging*/
-    order: 1;
-    background-color: mediumpurple;
-    color: ivory;
-}
-
 .items {
     display: flex;
     flex-direction: row;
@@ -198,6 +195,7 @@ body {
 
 .col.frm {
     background-color: mediumpurple;
+     color: ivory;
 }
 
 .info {
@@ -293,7 +291,7 @@ input[name="repeat"] {
 .display {
     /* border: 1px solid red; *//*debugging*/
     order: 1;
-    height: 200px;
+    height: 400px;
     background-color: #ffc0cb;
 }
 
@@ -304,9 +302,7 @@ input[name="repeat"] {
     order: 3;
 }
 
-.container {
-    border: 1px solid pink; /*debugging*/
-}
+
 
 
 .bottom {
@@ -315,10 +311,9 @@ input[name="repeat"] {
     background-color: #5995DA;
     padding: 20px 0;
     justify-content: center;
-
     margin: 0 auto;
 }
 
-.col {
-    border: 1px solid white;
+.ftr{
+    text-align: center;
 }
