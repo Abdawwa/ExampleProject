@@ -18,8 +18,6 @@ body {
 
     */
 
-
-
 .adv {
     text-align: center;
     padding-top: 40px;
@@ -316,4 +314,17 @@ input[name="repeat"] {
 
 .ftr{
     text-align: center;
+}
+@media (max-width:580px )
+{
+ .middle{
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+ }
+    .sidebar{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
