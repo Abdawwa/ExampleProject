@@ -74,7 +74,6 @@ body {
     display: flex;
     margin: 0 auto;
     padding: 20px 0;
-
 }
 
 .sidebar {
@@ -193,7 +192,7 @@ body {
 
 .col.frm {
     background-color: mediumpurple;
-     color: ivory;
+    color: ivory;
 }
 
 .info {
@@ -301,8 +300,6 @@ input[name="repeat"] {
 }
 
 
-
-
 .bottom {
 
     color: #fff;
@@ -312,17 +309,18 @@ input[name="repeat"] {
     margin: 0 auto;
 }
 
-.ftr{
+.ftr {
     text-align: center;
 }
-@media (max-width:580px )
-{
- .middle{
-     display: flex;
-     flex-direction: row;
-     flex-wrap: wrap;
- }
-    .sidebar{
+
+@media (max-width: 580px ) {
+    .middle {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .sidebar {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
